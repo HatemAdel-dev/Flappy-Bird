@@ -1,0 +1,58 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#board{
+  margin-top: 50px;
+  /* height: 500px; */
+  background-image: url('./flappybirdbg.png');
+}
+
+@media (max-width:390px) {
+  #board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 45px;
+    /* margin: top right bottom left; */
+    height: 600px;
+    width: 280px;
+  }
+}
+
+@media (max-width:375px) {
+  #board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0 0 40px;
+    /* margin: top right bottom left; */
+    height: 600px;
+    width: 280px;
+  }
+}
+
+@media (max-width:360px) {
+  #board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 0 30px;
+    /* margin: top right bottom left; */
+    height: 600px;
+    width: 280px;
+  }
+}
+
+@media (max-width:430px) {
+  #board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 55px;
+    /* margin: top right bottom left; */
+    height: 600px;
+    width: 300px;
+  }
+}
