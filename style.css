@@ -8,3 +8,11 @@ body{
   /* height: 500px; */
   background-image: url('./flappybirdbg.png');
 }
+
+@media (max-width:430px) {
+  #board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
