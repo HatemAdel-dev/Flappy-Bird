@@ -17,9 +17,16 @@ body{
   }
 }
 
-@media (max-width:391) {
+@media (max-width:391px) {
   #board{
     text-align: center;
-    height: 80vh;
+    height: 75vh;
+  }
+}
+
+@media (max-width:377px) {
+  #board{
+    text-align: center;
+    height: 86vh;
   }
 }
