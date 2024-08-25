@@ -9,9 +9,17 @@ body{
   background-image: url('./flappybirdbg.png');
 }
 
+
 @media (max-width:431px) {
   #board{
     text-align: center;
-    width: 300px;
+    height: 66vh;
+  }
+}
+
+@media (max-width:391) {
+  #board{
+    text-align: center;
+    height: 70vh;
   }
 }
