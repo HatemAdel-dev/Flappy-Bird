@@ -66,7 +66,7 @@ window.onload = function() {
     setInterval(placePipes, 1500); //every 1.5 seconds
     document.addEventListener('keydown', moveBird);
 
-    document.querySelector('.tab-btn')
+    document.body
     .addEventListener('click',()=>{
         
         velocityY=-6;
