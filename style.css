@@ -20,6 +20,6 @@ body{
 @media (max-width:391) {
   #board{
     text-align: center;
-    height: 70vh;
+    height: 80vh;
   }
 }
